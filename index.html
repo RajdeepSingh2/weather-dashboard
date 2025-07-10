@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🌦 Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="default">
+  <canvas id="weatherCanvas"></canvas>
+
+  <div class="container">
+    <h1>🌤 Weather App</h1>
+
+    <div id="date-time">
+      <p id="date"></p>
+      <p id="clock"></p>
+    </div>
+
+    <select id="language">
+      <option value="en">English</option>
+      <option value="hi">Hindi</option>
+      <option value="fr">French</option>
+      <option value="es">Spanish</option>
+      <option value="ja">Japanese</option>
+    </select>
+
+    <div class="autocomplete-wrapper">
+      <input id="city-input" placeholder="Enter city name..." autocomplete="off" />
+      <ul id="suggestions"></ul>
+    </div>
+
+    <button onclick="handleSearch()">🔍 Get Weather</button>
+
+    <div id="weather-info" class="weather-info" hidden>
+      <h2 id="city-name"></h2>
+      <img id="weather-icon" alt="Weather Icon" />
+      <p id="temp"></p>
+      <p id="desc"></p>
+      <p id="feels"></p>
+      <p id="humidity"></p>
+      <p id="wind"></p>
+      <p id="aqi"></p>
+
+      <!-- 🌍 Local Date & Time -->
+      <div id="local-dt" class="local-time"></div>
+    </div>
+
+    <h3>5-Day Forecast</h3>
+    <div id="forecast" class="forecast"></div>
+
+    <div id="map"></div>
+
+    <button onclick="toggleMode()">🌓 Toggle Mode</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
