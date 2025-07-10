@@ -27,4 +27,28 @@ A responsive, modern weather app built using **HTML, CSS, and JavaScript** that 
 - OpenWeatherMap API
 
 ---
+## 🚀 How to Run Locally
+
+# 1. Clone the repository
+git clone https://github.com/RajdeepSingh2/weather-dashboard.git
+
+# 2. Navigate into the project folder
+cd weather-dashboard
+
+# 3. Open the index.html file in your browser
+start index.html  # For Windows
+open index.html   # For macOS
+xdg-open index.html  # For Linux
+
+
+## 🔐 API Key Notice
+
+This app uses a demo OpenWeatherMap API key.  
+To ensure long-term stability or extend usage:
+
+1. Sign up at [https://openweathermap.org/api](https://openweathermap.org/api)
+2. Generate your free API key
+3. Replace it in the `script.js` file like this:
+
+
 
