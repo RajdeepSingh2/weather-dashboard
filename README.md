@@ -19,6 +19,12 @@ A responsive, modern weather app built using **HTML, CSS, and JavaScript** that 
 
 ---
 
+## 📸 Screenshot
+
+![App Preview](images/screenshot.png)
+
+---
+
 ## 🧪 Tech Stack
 
 - HTML5
@@ -40,7 +46,7 @@ start index.html  # For Windows
 open index.html   # For macOS
 xdg-open index.html  # For Linux
 
-
+---
 ## 🔐 API Key Notice
 
 This app uses a demo OpenWeatherMap API key.  
@@ -50,5 +56,6 @@ To ensure long-term stability or extend usage:
 2. Generate your free API key
 3. Replace it in the `script.js` file like this:
 
+---
 
 
